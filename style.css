@@ -1,0 +1,85 @@
+.invitation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.invitation img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.header_text {
+  font-weight: bold;
+  font-size: 1.8rem;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.program {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.christian {
+  background-color: #2385d5;
+  color: #f4f4f4;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+p {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.aktiviteter {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.aktiviteter div {
+  background-color: #0c6fbf;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.aktiviteter div:hover {
+  transform: translateY(-5px);
+}
+
+.aktiviteter img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.aktiviteter img:hover {
+  transform: scale(1.08) rotate(2deg);
+}
+
+.footer_text {
+  margin-top: 5%;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #0a5ea0;
+  border-top: 3px solid #fff;
+}
