@@ -83,3 +83,63 @@ p {
   background-color: #0a5ea0;
   border-top: 3px solid #fff;
 }
+
+/* 📱 Tablet-størrelse (under 768px) */
+@media screen and (max-width: 768px) {
+  .invitation {
+    padding: 20px;
+  }
+
+  .invitation h1 {
+    font-size: 2rem;
+  }
+
+  .header_text {
+    font-size: 1.5rem;
+    max-width: 90%;
+  }
+
+  .aktiviteter {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .footer_text {
+    font-size: 1rem;
+  }
+}
+
+/* 📱 Mobil-størrelse (under 480px) */
+@media screen and (max-width: 480px) {
+  .invitation h1 {
+    font-size: 1.6rem;
+  }
+
+  .invitation img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .header_text {
+    font-size: 1.2rem;
+    padding: 0 10px;
+  }
+
+  .program {
+    font-size: 1.6rem;
+  }
+
+  .aktiviteter {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .aktiviteter div {
+    padding: 15px;
+  }
+
+  .footer_text {
+    font-size: 0.9rem;
+    padding: 30px 10px;
+  }
+}
